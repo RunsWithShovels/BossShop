@@ -1,0 +1,90 @@
+Example on how to use banners in shop.yml
+
+
+shop:
+  ExampleBanner:
+    RewardType: item
+    PriceType: money
+    Price: 50
+    Reward:
+    - - type:BANNER
+      - amount:1
+      - banner:BLUE+WHITE-ls+GREEN-rs+RED-bo
+    MenuItem:
+    - type:BANNER
+    - amount:1
+    - name:Example Banner
+    - 'lore:This is an awesome banner!'
+    - banner:BLUE+WHITE-ls+GREEN-rs+RED-bo
+    Message: ''
+    InventoryLocation: 1
+    ExtraPermission: '' 
+    
+For a full list of Pattern and Colors:
+
+Banner line breakdown:
+banner:bannerBasecolor+patternColor-patternShape+patternColor-patternShape
+
+
+Banner Codes / Enum Names:
+ 
+bl = SQUARE_BOTTOM_LEFT
+br = SQUARE_BOTTEM_RIGHT
+tl = SQUARE_TOP_LEFT
+tr = SQUARE_TOP_RIGHT
+bs = STRIPE_BOTTOM
+ts = STRIPE_TOP
+ls = STRIPE_LEFT
+rs = STRIPE_RIGHT
+cs = STRIPE_CENTER
+ms = STRIPE_MIDDLE
+drs = STRIPE_DOWNRIGHT
+dls = STRIPE_DOWNLEFT
+ss =STRIPE_SMALL
+cr = CROSS
+sc = STRAIGHT_CROSS
+bt = TRIANGLE_BOTTOM
+tt = TRIANGLE_TOP
+bts = TRIANGLES_BOTTOM
+tts = TRIANGLES_TOP
+ld = DIAGONAL_LEFT
+rd = DIAGONAL_RIGHT
+lud = DIAGONAL_LEFT_MIRROR
+rud = DIAGONAL_RIGHT_MIRROR
+mc = CIRCLE_MIDDLE
+mr = RHOMBUS_MIDDLE
+vh = HALF_VERTICAL
+hh = HALF_HORIZONTAL
+vhr = HALF_VERTICAL_MIRROR
+hhb = HALF_HORIZONTAL_MIRROR
+bo = BORDER
+cbo = CURLY_BORDER
+cre = CREEPER
+gra = GRADIENT
+gru = GRADIENT_UP
+bri = BRICKS
+sku = SKULL
+flo = FLOWER
+moj = MOJANG
+ 
+Banner Color List:
+ 
+WHITE
+ORANGE
+MAGENTA
+LIGHT_BLUE
+YELLOW
+LIME
+LIGHT_GRAY
+PINK
+GRAY
+SILVER
+CYAN
+PURPLE
+BLUE
+BROWN
+GREEN
+RED
+BLACK
+
+      
